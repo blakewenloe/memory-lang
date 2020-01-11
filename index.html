@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Memory Lang</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+
+<body>
+	<section class="hero is-info">
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<h1 class="title">Memory Lang</h1>
+				<h2 class="subtitle">Match. Them. Langs.</h2>
+				<h3 class="subtitle">
+					Current Score: <span id="current-score"></span>
+				</h3>
+				<h2 class="subtitle">
+					Best Score: <span id="best-score">&mdash;</span>
+				</h2>
+			</div>
+		</div>
+	</section>
+	<div class="container" id="start">
+		<button class="animated pulse infinite button is-danger is-outlined is-large" id="start-button">Start!</button>
+	</div>
+	<div class="container" id="game">
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/12.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/4.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/1.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/2.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/5.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/4.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/7.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/9.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/11.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/10.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/9.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/7.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/8.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/7.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/6.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/12.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/3.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/9.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/6.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/1.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/7.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/5.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/2.png" />
+				</div>
+			</div>
+		</div>
+		<div class="card-wrapper">
+			<div class="card-item">
+				<div class="front"></div>
+				<div class="back">
+					<img src="imgs/1.png" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal">
+		<div class="modal-background"></div>
+		<div class="modal-card">
+			<header class="modal-card-head">
+			</header>
+			<section class="modal-card-body">
+				<h1 class="title has-text-info columns is-centered">YOU WON!</h1>
+				<h2 id="final-score" class="title columns is-centered"></h2>
+			</section>
+			<footer class="modal-card-foot">
+				<a class="button is-info" href="index.html" id="restart-button">Play again</a>
+				<button class="button is-info is-outlined" id="close">Close</button>
+			</footer>
+		</div>
+	</div>
+	</div>
+	<script src="app.js"></script>
+</body>
+
+</html>
